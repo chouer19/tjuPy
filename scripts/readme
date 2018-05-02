@@ -1,0 +1,22 @@
+bottom.py
+        open all bottom devices that interact with the driving-brain by CAN interface or serial port and recive data then publish them
+
+        gnss+ins from MAP Space Time
+
+	::= IP could be loaded from config file
+	::= test running
+
+
+navi.py
+        read map and generate a route for the car to follow
+
+	::= recv function and compute function                                                  ok
+	::== what to publish to others?                                                         ok
+
+
+policy.py
+        output ultimate steer and speed given the gnss, lidar, camera result
+
+
+log.py
+	sub all the messages and log

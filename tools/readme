@@ -1,0 +1,3 @@
+
+display::
+	only display gnss(1), car message(2) or both(3) of them
